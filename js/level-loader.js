@@ -14,7 +14,7 @@ class LevelLoader {
 
 	loadLevel(level) {
 		this.#tasks = 1;
-		this.#level = `https://hgstudio.ru/jstesttask/levels/${level}/`;
+		this.#level = `levels/${level}/`;
 		PIXI.Assets.load(`${this.#level}level.json`).then(this.parseJson.bind(this));
 	}
 

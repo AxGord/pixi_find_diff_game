@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'FilmotypeMajor';
+    src: url('fonts/FilmotypeMajor.eot');
+    src: url('fonts/FilmotypeMajor.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FilmotypeMajor.woff2') format('woff2'),
+        url('fonts/FilmotypeMajor.woff') format('woff'),
+        url('fonts/FilmotypeMajor.ttf') format('truetype'),
+        url('fonts/FilmotypeMajor.svg#FilmotypeMajor') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
